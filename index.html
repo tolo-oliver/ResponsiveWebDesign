@@ -10,14 +10,68 @@
     <body>
         <!-- HEADER -->
         <header>
-            <img src="./img/logo.svg" alt="logo">
-            <nav class="menu"></nav>
+            
+            <picture>
+                <!-- smartphone -->
+                <source srcset="
+                ./img/smartphone/banner.jpg,
+                ./img/smartphone/banner@2x.jpg,
+                ./img/smartphone/banner@3x.jpg,
+
+                "
+                media="(min-width:320px) and (orientation:portrait)"
+            
+                >
+                <!-- desktop -->
+                <source srcset="
+                .img/desktop/banner.jpg,
+                .img/desktop/banner@2x.jpg2x,
+                "
+                media="(min-width:1000px) and (orientation:portrait)"
+
+                
+                >
+            <img src="" alt="montañas" />
+
+            
+            </picture>
+
+            <h2>
+                Logotipo
+            </h2>
         </header>
         <!-- MAIN -->
         <main></main>
         <!-- FOOTER -->
         <footer>
-            <h6 class="copy">&copy;Copyright</h6>
+
+      <section class="links">
+
+        <!-- redes -->
+
+        <ul class="redes">
+            <li class="redes__titulo">
+                <h5> Redes Sociales</h5>
+            </li>
+            <li class="redes__twitter">Twitter</li>
+            <li class="redes__picture">Picture</li>
+            <li class="redes__Linkedin">Linkedin</li>
+        </ul>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li class="menu__titulo">
+                <h5> Menu principal</h5>
+            </li>
+            <li class="menu__servicios">Servicios</li>
+            <li class="menu__proyectos">Proyectos</li>
+            <li class="menu__Contactar">Contactar</li>
+        </ul>
+      </section>
+
+      <h6 class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, vulputate suspendisse nec lacus ligula porta nec id turpis. Fringilla cras lacus quam.</h6>
+
+            <h6 class="copy">&copy;Copyright-2021</h6>
         </footer>
     </body>
 </html>
