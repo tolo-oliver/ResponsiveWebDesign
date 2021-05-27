@@ -14,9 +14,9 @@
             <picture>
                 <!-- smartphone -->
                 <source srcset="
-                ./img/smartphone/banner.jpg,
-                ./img/smartphone/banner@2x.jpg,
-                ./img/smartphone/banner@3x.jpg,
+                ./img/smartphone/banner.jpg 1x,
+                ./img/smartphone/banner@2x.jpg 2x,
+                ./img/smartphone/banner@3x.jpg 3x,
 
                 "
                 media="(min-width:320px) and (orientation:portrait)"
@@ -24,21 +24,21 @@
                 >
                 <!-- desktop -->
                 <source srcset="
-                .img/desktop/banner.jpg,
-                .img/desktop/banner@2x.jpg2x,
+                .img/desktop/banner.jpg 1x,
+                .img/desktop/banner@2x.jpg 2x,
                 "
-                media="(min-width:1000px) and (orientation:portrait)"
+                media="(min-width:1000px)"
 
                 
                 >
-            <img src="" alt="montañas" />
+                <img class="banner" src="" alt="nubes entre montañas">
 
             
             </picture>
 
-            <h2>
+            <h1 class="logo">
                 Logotipo
-            </h2>
+            </h1>
         </header>
         <!-- MAIN -->
         <main></main>
