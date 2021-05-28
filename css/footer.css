@@ -1,10 +1,66 @@
 /* FOOTER */
 /* ***** */
 
-footer{
-    background-color:#4066EC;
-    font: size 18px;
-    font-family: sans-serif;
+footer {
+  background-color: var(--colorFooter);
+  padding: 40px 20px;
+  display:flex;
+  flex-direction:column;
+  font: size 18px;
+  font-family: sans-serif;
+  color: white;
+}
 
+.banner {
+}
+.logo {
+}
+.LinksFooter {
+    display:flex;
+    flex-direction: column;
+}
+.LinksFooter__redes {
 
 }
+
+li{
+    line-height: 40px;
+}
+.LinksFooter__redes__titulo {
+}
+.LinksFooter__redes__twitter,
+.LinksFooter__redes__picture,
+.LinksFooter__redes__Linkedin {
+    text-indent:40px;
+}
+.LinksFooter__menu {
+}
+.LinksFooter__menu__titulo{
+
+}
+.LinksFooter__menu__servicios,
+.LinksFooter__menu__proyectos,
+.LinksFooter__menu__Contactar {
+    text-indent:40px;
+}
+.InfoFooter {
+}
+.InfoFooter__explicacion {
+    text-align: center;
+}
+.InfoFooter__copy {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .LinksFooter {
+        flex-direction: row;
+    }                             
+    .LinksFooter__redes{
+        flex-grow: 0.1;
+    }
+    main{
+        height:                                     
+    }
+}               
